@@ -1,0 +1,10 @@
+Author : Muhammad Farjad Malik
+Class : BSCS - 2A
+Reg No. : 02694
+
+Advanced Programming Lab 06 - Local Desktop Spider Crawler in JAVA using threads
+
+User gives the gui a path and the crawler starts its search from that directory and searches all the non-hidden files and stores them in a hashmap. Whenever a user then specifies a key the path against that key is returned from the hashmap. Hash map stores a vector against a key because a file with same name can exist at two different paths. When the user searches a file it displays the files in the gui window. Model View and controller are all different from eachother.
+
+Crawler also makes use of the threads. Whenever a sub-directory is found the crawler launches a new thread which crawls that directory and the cycle continues. The max number of threads right now is 50 but can be chnaged.
+
